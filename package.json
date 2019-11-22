@@ -1,0 +1,22 @@
+{
+  "name": "slack-welcome-bot",
+  "private": true,
+  "version": "1.5.0",
+  "description": "Slack bot app that welcomes new members and tells them to introduce themselve",
+  "engines": {
+    "node": ">= 6.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.1",
+    "body-parser": "^1.18.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.3",
+    "node-json-db": "^0.7.3",
+    "querystring": "^0.2.0",
+    "tsscmp": "^1.0.6"
+  }
+}
