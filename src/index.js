@@ -26,8 +26,6 @@ app.get('/', (req, res) => {
   res.send('<h2>The slack welcome bots is running</h2>');
 });
 
-app.get('/channels', onboard.getChannels)
-
 /*
  * Endpoint to receive events from Slack's Events API.
  * It handles `team_join` event callbacks.
